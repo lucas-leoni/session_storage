@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 32px;
+    padding: 35px;
+    color: rgb(12, 179, 221);
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 0px 15px;
+}
+label {
+    width: 10%;
+    font-size: 25px;
+    color: rgb(221, 27, 13);
+    margin: 0px -15px 0px 0px;
+}
+.item {
+    margin: 0px -100px 0px 0px;
+}
+input {
+    width: 12%;
+    height: 32px;
+    font-size: 18px;
+}
+button {
+    width: 10%;
+    height: 38px;
+    font-size: 18px;
+}
+#add {
+    color: rgb(45, 190, 26);
+}
+#modificar {
+    color: rgb(224, 228, 19);
+}
+#remover {
+    color: rgb(221, 27, 13);
+}
+#removerTudo {
+    color: rgb(221, 27, 13);
+}
+nav {
+    display: flex;
+}
+.listaCompras {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 30px 0px 0px 35px;
+}
+h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px 0px;
+    color: rgb(12, 179, 221);
+}
+.listaCompras ul {
+    list-style-type: "-";
+    margin: 0px 0px 0px 10px;
+}
+.listaCompras li {
+    color: rgb(221, 27, 13);
+    padding: 5px;
+}

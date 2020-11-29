@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras | Session Storage</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body onload="mostrarTudo()">
+    <header>
+        <h1>Crie sua Lista de Compras:</h1>
+        <form name="criarLista">
+            <label class="item">Item:</label>
+            <input id="inputItem" type="text" name="item" placeholder="Insira um item">
+            <label>Quantidade:</label>
+            <input id="inputQuantidade" type="text" name="quantidade" placeholder="Insira a quantidade">
+            <button id="add">Adicionar</button>
+            <button id="modificar">Modificar</button>
+            <button id="remover">Remover</button>
+            <button id="removerTudo">Remover Tudo</button>
+        </form>
+    </header>
+    <nav>
+        <div class="listaCompras">
+            <h2>Lista de Compras:</h2>
+            <ul id="lista">
+                
+            </ul>
+        </div>
+    </nav>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
